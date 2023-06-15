@@ -1,0 +1,9 @@
+SUBLEQ @var,254
+SUBLEQ @var2,254
+SUBLEQ @conv,@var
+SUBLEQ @conv,@var2
+SUBLEQ 254,@conv
+SUBLEQ 255,0
+@var .data 0
+@var2 .data 0
+@conv .data 0

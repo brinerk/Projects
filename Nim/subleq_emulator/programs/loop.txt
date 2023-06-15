@@ -1,0 +1,3 @@
+@start
+SUBLEQ 0,0,@start
+SUBLEQ 255,0

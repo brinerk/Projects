@@ -1,0 +1,19 @@
+@start
+SUBLEQ @var,@one
+SUBLEQ 254,@var
+SUBLEQ @var2,@var
+SUBLEQ @ten,@var2,@stop
+SUBLEQ @var2,@var2
+SUBLEQ @ten,@ten
+SUBLEQ @var2,@ten2
+SUBLEQ @ten,@var2
+SUBLEQ @var2,@var2
+SUBLEQ @zero,@zero,@start
+@stop
+SUBLEQ 255,0
+@one .data 1
+@zero .data 0
+@var .data 0
+@var2 .data 0
+@ten .data 10
+@ten2 .data 10

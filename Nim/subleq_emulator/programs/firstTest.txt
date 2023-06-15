@@ -1,0 +1,5 @@
+SUBLEQ @zero,254
+SUBLEQ 254,@zero
+SUBLEQ 255,0
+@zero .data 0
+@one .data 1

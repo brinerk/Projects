@@ -1,0 +1,6 @@
+SUBLEQ 0,@two
+SUBLEQ 0,@one
+SUBLEQ 254,0
+SUBLEQ 255,0
+@one .data 1
+@two .data 2

@@ -1,0 +1,7 @@
+SUBLEQ @var2,254
+SUBLEQ @var,254
+SUBLEQ @var,@var2
+SUBLEQ 254,@var
+SUBLEQ 255,0
+@var .data 0
+@var2 .data 0

@@ -1,0 +1,11 @@
+@start
+SUBLEQ @zero,@const0
+SUBLEQ @zero,@zero
+SUBLEQ 254,@counter
+SUBLEQ @counter,@one
+SUBLEQ @zero,@counter,@start
+SUBLEQ 255,0
+@counter .data 10
+@one .data 1
+@zero .data 0
+@const0 .data 0
