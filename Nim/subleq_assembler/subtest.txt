@@ -1,0 +1,11 @@
+@start
+SUBLEQ 0,255
+SUBLEQ 90,18
+SUBLEQ @meme,65
+@second
+SUBLEQ 0,@zero
+@third
+SUBLEQ 1,0,1
+@zero .data 1
+@meme .data 32
+@neg1 .data -1

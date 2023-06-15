@@ -1,0 +1,5 @@
+@start
+SUBLEQ 0,@two
+SUBLEQ 254,0
+SUBLEQ 255,0
+@two .data 2
